@@ -32,9 +32,7 @@ FILES = {  # file name -> folder in the OpenTTD tree
     "stock_sl.cpp": "src/saveload",
     "stock_sl_compat.h": "src/saveload/compat",
     "stock_widget.h": "src/widgets",
-    "stock_widget.h": "src/widgets",
     "sim_time.h": "src",
-}
 }
 NEW_COMMANDS = [  # in the order they are added after CMD_STOCK_CLOSE
     ("CMD_STOCK_MODIFY", "change a position or a pending order"),
